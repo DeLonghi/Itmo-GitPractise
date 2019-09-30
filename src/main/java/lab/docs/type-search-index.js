@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"lab","l":"Fraction"},{"p":"lab","l":"Polinomyal"},{"p":"lab","l":"SetOfFraction"}]
