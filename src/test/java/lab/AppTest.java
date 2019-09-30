@@ -1,8 +1,11 @@
 package lab;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
+
+import java.io.File;
 
 
 
@@ -56,5 +59,11 @@ public class AppTest {
 
         assertNotSame(expected, actual.getCoe());
 
+    }
+
+    @Test
+    public void test4() {
+        Fraction actual = new Fraction(new File("C:\\JAVAAAA\\Itmo-GitPractise\\src\\Fraction Input"));
+        assertEquals(f1.getM(), actual.getM());
     }
 }
