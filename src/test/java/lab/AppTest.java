@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  */
 
 public class AppTest {
-    Polinomyal p1, p2;
+    Polynomial p1, p2;
     Fraction f1, f2, f3;
    
     @Before
@@ -39,9 +39,9 @@ public class AppTest {
         
         long[] expected = {8, 4, 2};        
 
-        Polinomyal actual = new Polinomyal(sof, 1);
+        Polynomial actual = new Polynomial(sof, 1);
         
-        assertArrayEquals(actual.getPolinom(), expected);
+        assertArrayEquals(actual.getPolynomial(), expected);
     }
 
     @Test
@@ -52,7 +52,7 @@ public class AppTest {
         expected.AddFraction(f2);
         expected.AddFraction(f3);
 
-        Polinomyal actual = new Polinomyal(expected, 3);
+        Polynomial actual = new Polynomial(expected, 3);
 
         assertNotSame(expected, actual.getCoe());
 
