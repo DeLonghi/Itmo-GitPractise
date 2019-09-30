@@ -1,11 +1,11 @@
 package lab;
 
-/** @author Vinnikov Ilya,
+/** @author Vinnikov Ilya
 */
 
 class Main {
 
  public static void main(String[] args) {
-  System.out.println("Hello Wolrd!");
+  System.out.println("Hello World!");
  }
 }
