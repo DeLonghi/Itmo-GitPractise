@@ -14,7 +14,7 @@ With this library you can deal with fractions, unite them in sets and create pol
  Fraction f2 = new Fraction(300, 2);
  Fraction f3 = new Fraction(new File("C:\\JAVAAAA\\Itmo-GitPractise\\src\\Fraction Input"));
 
- (1.compare(f3)) ? System.out.println("f1 > f2") : System.out.println("f1 < f2");
+ (f1.compare(f3)) ? System.out.println("f1 > f2") : System.out.println("f1 < f2");
  
  
  //sets of fractios
