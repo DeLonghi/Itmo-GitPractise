@@ -66,4 +66,9 @@ public class AppTest {
         Fraction actual = new Fraction(new File("C:\\JAVAAAA\\Itmo-GitPractise\\src\\Fraction Input"));
         assertEquals(f1.getM(), actual.getM());
     }
+
+    @Test
+    public void test5() {
+        assertTrue(f1.compare(f3));
+    }
 }
