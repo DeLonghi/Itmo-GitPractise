@@ -67,7 +67,7 @@ public class Fraction implements Cloneable {
     }
 
     public boolean compare(Fraction fractionToCompareWith) {
-        return((this.M / this.N) > (fractionToCompareWith.getM() / fractionToCompareWith.getN()));
+        return(((double) this.M / this.N) > ((double) fractionToCompareWith.getM() / fractionToCompareWith.getN()));
     }
 
     @Override
